@@ -1,9 +1,9 @@
 let productName = "Souvenir Sweatshirt";
-let costPerUnit = 2;
-let basePrice = 10.99;
-let discountRate = 0.08;
-let salesTaxRate = 0.05;
-let fixedMonthlyCost = 80;
+let costPerUnit = 15;
+let basePrice = 45;
+let discountRate = 0.05;
+let salesTaxRate = 0.07;
+let fixedMonthlyCost = 1000;
 
 let discountPrice = basePrice * (1 - discountRate);
 let finalPriceWithTax = discountPrice * (1 + salesTaxRate);
